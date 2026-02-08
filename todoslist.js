@@ -1,6 +1,20 @@
 let todoItemsContainer = document.getElementById("todoItemsContainer");
 let addTodoButton = document.getElementById("addTodoButton");
 let saveTodoButton = document.getElementById("saveTodoButton");
+let ageGate = document.getElementById("age-gate");
+let yesBtn = document.getElementById("yes-btn");
+let noBtn = document.getElementById("no-btn");
+
+// Age gate functionality
+yesBtn.onclick = function() {
+    ageGate.classList.add("hidden");
+};
+
+noBtn.onclick = function() {
+    alert("You must be 18 or older to access this site.");
+    // Optionally, redirect or close the window
+    // window.location.href = "https://www.google.com";
+};
 
 function getTodoListFromLocalStorage() {
     let stringifiedTodoList = localStorage.getItem("todoList");

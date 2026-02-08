@@ -112,6 +112,8 @@
 
 .delete-icon {
     padding: 15px;
+    color: #096f92;
+    cursor: pointer;
 }
 
 .checked {
