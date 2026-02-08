@@ -7,8 +7,7 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "C:\\Users\\admin\\Downloads\\HCXK3D91E3_todoslist"
-publishOrigin = "default"
+publish = "."
 
 [build.environment]
 

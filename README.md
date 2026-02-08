@@ -2,6 +2,10 @@
 
 A simple and intuitive web-based Todo List application that allows users to create, manage, and track their tasks efficiently. Built with vanilla JavaScript, HTML, and CSS, this app provides a clean and responsive interface for organizing daily tasks.
 
+## Live Demo
+
+Check out the live demo: [Todo Lists Web Application](https://6988b82ac28--todo-lists-webapplication-gagan2105.netlify.app/)
+
 ## Features
 
 - **Add Tasks**: Easily add new tasks with a user-friendly input field.
